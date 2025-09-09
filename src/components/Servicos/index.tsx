@@ -83,6 +83,7 @@ function CardsCarousel({
                 width={80}
                 height={80}
                 className="w-20 h-20 mb-3"
+                
               />
               <h4 className="font-bold text-lg">{card.title}</h4>
               <p className="text-sm mt-2">{card.desc}</p>

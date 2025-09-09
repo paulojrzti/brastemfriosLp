@@ -4,14 +4,13 @@
   --color-blue: #004aad;
   --color-orange: #eb8130;
   --color-light: #fbfdff;
-  --font-sans: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 body {
-  @apply bg-light font-sans;
+  @apply bg-light;
 }
 .icon {
   @apply bg-blue p-2 2xl:p-4 rounded-full;

@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header, Menu, LenisProvider, Footer } from "@/components";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Brastenfrios - Serviços de Elétrica e Refrigeração na Grande Vitória",
@@ -15,14 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body className={poppins.className}>
         <LenisProvider />
         <Header />
         <Menu />
-        <main>
-         {children}
-        </main>
-        <Footer/>
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
