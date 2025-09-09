@@ -18,6 +18,8 @@ export function Portfolio({ images }: PortfolioProps) {
                 alt={`portfolio-${i}`}
                 fill
                 className="object-cover rounded-lg shadow"
+                quality={70} 
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
             </div>
           ))}

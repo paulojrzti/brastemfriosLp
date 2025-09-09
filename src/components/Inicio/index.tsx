@@ -29,6 +29,7 @@ export function Inicio() {
             alt="eletricista  brastenfrio"
             width={500}
             height={500}
+            priority
           />
         </div>
       </div>
@@ -44,6 +45,7 @@ export function Inicio() {
             alt="eletricista  brastenfrio"
             width={290}
             height={270}
+            priority
           />
         </div>
         <div className="bg-light h-33 bottom-0 w-full absolute blur-lg z-1"></div>
