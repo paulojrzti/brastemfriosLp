@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const cardsRefrigeracao = [
   {
@@ -76,9 +77,11 @@ function CardsCarousel({
         <SwiperSlide key={index}>
           <div className="bg-blue rounded-2xl py-7 px-5 flex flex-col justify-between text-light h-73">
             <div>
-              <img
+              <Image
                 src={card.icon}
                 alt={`Ícone de ${card.title.toLowerCase()}`}
+                width={80}
+                height={80}
                 className="w-20 h-20 mb-3"
               />
               <h4 className="font-bold text-lg">{card.title}</h4>
