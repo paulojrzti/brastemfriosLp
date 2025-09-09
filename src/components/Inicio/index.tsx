@@ -30,7 +30,6 @@ export function Inicio() {
             width={500}
             height={500}
             priority
-            fetchPriority="high"
           />
         </div>
       </div>
@@ -47,7 +46,6 @@ export function Inicio() {
             width={290}
             height={270}
             priority
-            fetchPriority="high"
           />
         </div>
         <div className="bg-light h-33 bottom-0 w-full absolute blur-lg z-1"></div>
