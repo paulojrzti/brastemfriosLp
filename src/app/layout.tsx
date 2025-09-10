@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Atendimento em Vila Velha, Vitória, Cariacica, Serra e região metropolitana. Instalação, manutenção e reparos elétricos e de refrigeração.",
   other: {
-    "google-site-verification": "JDVMEekIXVLLcHVwgH5nj2vVb1qFOjA42Fx-EbuZukY",
+    "google-site-verification" : "BjjACdSAjwwbRekGLoAfROW6SumZGYwwuN89xB1d-5g"
   },
 };
 
