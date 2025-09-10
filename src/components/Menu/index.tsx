@@ -1,7 +1,5 @@
 "use client";
-
 import { useEffect, useState } from "react";
-
 const sections = ["inicio", "sobre", "serviços", "portfolio", "contato"];
 
 export function Menu() {
@@ -36,7 +34,7 @@ export function Menu() {
           <li key={item} className=" relative">
             <a
               href={`#${item}`}
-              className="menu-item text-blue transition-colors"
+              className="font-semibold menu-item text-blue transition-colors"
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </a>
@@ -52,4 +50,4 @@ export function Menu() {
       </ul>
     </nav>
   );
-}
+} 
