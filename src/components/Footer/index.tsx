@@ -92,7 +92,13 @@ export function Footer() {
                 <a href="#portfolio">Portfólio</a>
               </li>
               <li className="footer-menu-item">
-                <a href="#contato">Contato</a>
+                <a
+                  href="https://wa.link/jcltng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Contato
+                </a>
               </li>
             </ul>
           </div>

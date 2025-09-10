@@ -17,7 +17,12 @@ export function Header() {
               <p>Nós avalie</p>
             </div>
           </a>
-          <a className="info link-hover flex gap-4 items-center cursor-pointer">
+          <a
+            href="https://wa.link/jcltng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="info link-hover flex gap-4 items-center cursor-pointer"
+          >
             <div className="icon">
               <Image src="/telefone.svg" alt="icone" width={25} height={25} />
             </div>
@@ -32,7 +37,7 @@ export function Header() {
             </div>
             <div className="text-info">
               <h6>Email</h6>
-              <p>voltagemrefrigeracao@gmail.com</p>
+              <p>voltagemservicos.es@gmail.com</p>
             </div>
           </a>
         </div>

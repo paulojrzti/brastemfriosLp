@@ -20,7 +20,13 @@ export function DefaultButton({ size }: DefaultButtonProps) {
         ${sizeClasses[size]}
       `}
     >
-      Solicitar Orçamento
+      <a
+        href="https://wa.link/jcltng"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Solicitar Orçamento
+      </a>
     </button>
   );
 }
