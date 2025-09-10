@@ -46,6 +46,7 @@ export function Footer() {
                 href="https://wa.link/jcltng"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="social-media"
               >
                 <Image
                   src="/telefone-or.svg"
@@ -55,7 +56,7 @@ export function Footer() {
                 />
               </a>
               <a
-                href="mailto:contato@voltagem.com"
+                href=""
                 className="social-media"
                 aria-label="Email Voltagem"
               >
