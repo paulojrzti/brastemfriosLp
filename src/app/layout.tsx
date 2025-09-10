@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header, Menu, LenisProvider, Footer, WhatsAppButton } from "@/components";
 import { Montserrat as FontMontserrat } from "next/font/google";
+import Head from "next/head";
 
 const montserrat = FontMontserrat({
   subsets: ["latin"],
@@ -21,6 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="JDVMEekIXVLLcHVwgH5nj2vVb1qFOjA42Fx-EbuZukY"
+        />
+      </Head>
       <body className={montserrat.className}>
         <LenisProvider />
         <Header />
