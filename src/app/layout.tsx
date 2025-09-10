@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Voltagem - Serviços de Elétrica e Refrigeração na Grande Vitória",
   description:
     "Atendimento em Vila Velha, Vitória, Cariacica, Serra e região metropolitana. Instalação, manutenção e reparos elétricos e de refrigeração.",
+  other: {
+    "google-site-verification": "JDVMEekIXVLLcHVwgH5nj2vVb1qFOjA42Fx-EbuZukY",
+  },
 };
 
 export default function RootLayout({
