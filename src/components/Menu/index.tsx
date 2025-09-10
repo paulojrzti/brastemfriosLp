@@ -28,7 +28,7 @@ export function Menu() {
   }, []);
 
   return (
-    <nav className="flex gap-8 w-full justify-center items-center py-4 sticky top-0 bg-light shadow z-100">
+    <nav className="flex gap-8 w-full justify-center items-center py-4 sticky top-0 bg-light shadow z-50">
       <ul className="flex 2xl:gap-8 gap-5">
         {sections.map((item) => (
           <li key={item} className=" relative">

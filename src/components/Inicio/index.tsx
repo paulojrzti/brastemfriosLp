@@ -49,7 +49,7 @@ export function Inicio() {
           />
         </div>
         <div className="bg-light h-33 bottom-0 w-full absolute blur-lg z-1"></div>
-        <div className="flex flex-col 2xl:gap-6 gap-3 items-center 2xl:items-start z-50 absolute left-0 -bottom-20">
+        <div className="flex flex-col 2xl:gap-6 gap-3 items-center 2xl:items-start z-20 absolute left-0 -bottom-20">
           <h1 className="2xl:text-6xl text-[5.7vw] font-bold text-blue leading-snug text-center 2xl:text-left w-full">
             Refrigeração e elétrica <br /> com qualidade e confiança.
           </h1>
