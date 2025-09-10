@@ -36,7 +36,7 @@ export function Menu() {
           <li key={item} className=" relative">
             <a
               href={`#${item}`}
-              className="font-semibold menu-item text-blue transition-colors"
+              className="menu-item text-blue transition-colors"
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </a>

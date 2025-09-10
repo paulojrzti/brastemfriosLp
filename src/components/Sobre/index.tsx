@@ -11,7 +11,7 @@ export function Sobre() {
         <div className="hidden 2xl:block bg-blue rounded-full">
           <Image
             src="/boneco-sobre.svg"
-            alt="Equipe especializada em elétrica e refrigeração da Brastenfrio"
+            alt="Equipe especializada em elétrica e refrigeração da Voltagem"
             width={500}
             height={500}
           />
@@ -20,7 +20,7 @@ export function Sobre() {
         <div className="flex flex-col gap-5 2xl:w-1/2">
           <h2 className="title-section">Sobre Nós</h2>
           <p className="text-blue font-light 2xl:text-lg">
-            A <strong>Brastenfrio</strong> é uma empresa especializada em{" "}
+            A <strong>Voltagem</strong> é uma empresa especializada em{" "}
             <strong>manutenção elétrica</strong> e{" "}
             <strong>refrigeração residencial e comercial</strong>. Há mais de 8
             anos no mercado, oferecemos serviços de instalação, reparo e

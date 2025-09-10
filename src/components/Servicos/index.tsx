@@ -5,6 +5,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
+import { DefaultButton } from "../DefaultButton";
 
 const cardsRefrigeracao = [
   {
@@ -75,7 +76,7 @@ function CardsCarousel({
     >
       {cards.map((card, index) => (
         <SwiperSlide key={index}>
-          <div className="bg-blue rounded-2xl py-7 px-5 flex flex-col justify-between text-light h-73">
+          <div className="bg-blue rounded-2xl py-7 px-5 flex flex-col justify-between text-light h-auto 2xl:h-72">
             <div>
               <Image
                 src={card.icon}
@@ -88,9 +89,7 @@ function CardsCarousel({
               <h4 className="font-bold text-lg">{card.title}</h4>
               <p className="text-sm mt-2">{card.desc}</p>
             </div>
-            <button className="mt-4 bg-orange text-light px-4 py-2 rounded-full font-semibold">
-              Solicitar Orçamento
-            </button>
+            <DefaultButton size="sm" />
           </div>
         </SwiperSlide>
       ))}

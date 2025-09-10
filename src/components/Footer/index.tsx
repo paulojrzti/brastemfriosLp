@@ -9,15 +9,15 @@ export function Footer() {
           {/* Logo + Redes */}
           <div className="flex flex-col h-full justify-between ">
             <Image
-              src="/logo-branca.png"
-              alt="Logo da Brastenfrios - serviços de elétrica e refrigeração"
-              width={200}
-              height={200}
+              src="/logo-branca.svg"
+              alt="Logo da Voltagem - serviços de elétrica e refrigeração"
+              width={150}
+              height={150}
             />
             {/* Mini descrição SEO */}
-            <div className="mt-2 text-sm text-light/80 max-w-sm">
+            <div className="mt-5 text-sm text-light/80 max-w-sm">
               <p>
-                A <strong>Brastenfrios</strong> é especializada em{" "}
+                A <strong>Voltagem</strong> é especializada em{" "}
                 <strong>serviços de elétrica</strong> e{" "}
                 <strong>
                   refrigeração residencial, comercial e industrial
@@ -33,7 +33,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-media"
-                aria-label="Instagram Brastenfrios"
+                aria-label="Instagram Voltagem"
               >
                 <Image
                   src="/instagram.svg"
@@ -45,7 +45,7 @@ export function Footer() {
               <a
                 href="tel:+55000000000"
                 className="social-media"
-                aria-label="Telefone Brastenfrios"
+                aria-label="Telefone Voltagem"
               >
                 <Image
                   src="/telefone-or.svg"
@@ -55,9 +55,9 @@ export function Footer() {
                 />
               </a>
               <a
-                href="mailto:contato@brastenfrios.com"
+                href="mailto:contato@voltagem.com"
                 className="social-media"
-                aria-label="Email Brastenfrios"
+                aria-label="Email Voltagem"
               >
                 <Image
                   src="/email-or.svg"
@@ -130,7 +130,13 @@ export function Footer() {
               required
               className="bg-light rounded-md text-orange px-2 py-1 placeholder:text-orange placeholder:font-light"
             />
-            <button className="bg-orange w-max px-3 py-1 rounded-full font-bold">
+            <button
+              className={`
+        flex items-center w-max bg-orange text-light px-4 py-2 rounded-full font-semibold 
+        hover:bg-darkOrange hover:shadow-amber-500 shadow-md mt-4
+        transition-transform duration-200 ease-out
+        transform hover:scale-105`}
+            >
               Enviar
             </button>
           </form>

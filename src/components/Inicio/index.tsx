@@ -9,7 +9,7 @@ export function Inicio() {
         id="inicio"
       >
         <div className="flex flex-col 2xl:gap-6 gap-3 items-center 2xl:items-start">
-          <h1 className="2xl:text-6xl text-2xl font-bold text-blue leading-snug text-center 2xl:text-left">
+          <h1 className="2xl:text-5xl text-2xl font-bold text-blue leading-snug text-center 2xl:text-left">
             Refrigeração e elétrica <br /> com qualidade e confiança.
           </h1>
           <p className="2xl:text-xl text-orange 2xl:max-w-lg text-center 2xl:text-left">
@@ -26,7 +26,7 @@ export function Inicio() {
         <div className="bg-blue rounded-full shadow-lg px-5">
           <Image
             src="/boneco-inicio.svg"
-            alt="eletricista  brastenfrio"
+            alt="eletricista  voltagem"
             width={500}
             height={500}
             priority
@@ -42,7 +42,7 @@ export function Inicio() {
         <div className="bg-orange rounded-full shadow-lg">
           <Image
             src="/boneco-inicio.svg"
-            alt="eletricista  brastenfrio"
+            alt="eletricista  voltagem"
             width={290}
             height={270}
             priority
@@ -50,7 +50,7 @@ export function Inicio() {
         </div>
         <div className="bg-light h-33 bottom-0 w-full absolute blur-lg z-1"></div>
         <div className="flex flex-col 2xl:gap-6 gap-3 items-center 2xl:items-start z-50 absolute left-0 -bottom-20">
-          <h1 className="2xl:text-6xl text-2xl font-bold text-blue leading-snug text-center 2xl:text-left">
+          <h1 className="2xl:text-6xl text-[5.7vw] font-bold text-blue leading-snug text-center 2xl:text-left w-full">
             Refrigeração e elétrica <br /> com qualidade e confiança.
           </h1>
           <p className="2xl:text-xl text-orange 2xl:max-w-lg text-center 2xl:text-left">

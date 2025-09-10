@@ -5,7 +5,7 @@ import { Container } from "@/components";
 const faqs = [
   {
     question:
-      "Quais serviços de elétrica a Brastenfrios oferece na Grande Vitória?",
+      "Quais serviços de elétrica a Voltagem oferece na Grande Vitória?",
     answer:
       "Oferecemos instalação elétrica, manutenção, reparos em sistemas residenciais e comerciais, além de projetos industriais completos em Vila Velha, Vitória, Cariacica, Serra e toda a região metropolitana da Grande Vitória.",
   },
