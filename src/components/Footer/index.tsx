@@ -29,7 +29,7 @@ export function Footer() {
             </div>
             <div className="flex gap-4 mt-5">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/voltagemrefrigeracao_es/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-media"
@@ -43,9 +43,9 @@ export function Footer() {
                 />
               </a>
               <a
-                href="tel:+55000000000"
-                className="social-media"
-                aria-label="Telefone Voltagem"
+                href="https://wa.link/jcltng"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   src="/telefone-or.svg"
