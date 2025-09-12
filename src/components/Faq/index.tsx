@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Container } from "@/components";
 
 const faqs = [
@@ -67,7 +68,6 @@ const faqs = [
   },
 ];
 
-
 export function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -76,33 +76,48 @@ export function Faq() {
   };
 
   return (
-    <Container>
-      <div id="faq" className="py-20">
-        <h2 className="title-section mb-15 text-center">
+    <div id="faq" className="py-20">
+      <Container>
+        <h2 className="title-section mb-12 text-center">
           Perguntas Frequentes
         </h2>
-        <div className="flex flex-col gap-4 max-w-6xl mx-auto">
+
+        <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b border-light/30 pb-4">
-              <button
-                onClick={() => toggle(index)}
-                className="w-full text-left font-semibold text-blue flex justify-between items-center"
-                aria-expanded={openIndex === index}
-              >
-                {faq.question}
-                <span>{openIndex === index ? "-" : "+"}</span>
-              </button>
-              <div
-                className={`mt-2 text-orange transition-all duration-300 overflow-hidden ${
-                  openIndex === index ? "max-h-40" : "max-h-0"
-                }`}
-              >
-                <p>{faq.answer}</p>
+            <div
+              key={index}
+              className="bg-white/10 backdrop-blur-lg border border-white/20 
+                         rounded-2xl shadow-lg p-6 text-left cursor-pointer 
+                         hover:shadow-blue/30 transition-all duration-300"
+              onClick={() => toggle(index)}
+            >
+              <div className="flex justify-between items-center">
+                <h3 className="text-lg font-semibold text-blue">
+                  {faq.question}
+                </h3>
+                <span className="text-xl text-orange">
+                  {openIndex === index ? "−" : "+"}
+                </span>
               </div>
+
+              <AnimatePresence>
+                {openIndex === index && (
+                  <motion.div
+                    key={`faq-${index}`} // 🔑 chave única pra cada resposta
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3 }}
+                    className="overflow-hidden"
+                  >
+                    <p className="mt-3 text-sm text-darkBlue">{faq.answer}</p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           ))}
         </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }

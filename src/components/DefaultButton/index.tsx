@@ -14,7 +14,7 @@ export function DefaultButton({ size }: DefaultButtonProps) {
     <button
       className={`
         flex items-center w-max bg-orange text-light px-4 py-2 rounded-full font-semibold 
-        hover:bg-darkOrange hover:shadow-amber-500 shadow-md mt-4
+        shadow-[-4px_-3px_7.8px_0_rgba(255,255,255,0.25)_inset,0_4px_4px_0_rgba(255,255,255,0.25)_inset]  mt-4
         transition-transform duration-200 ease-out
         transform hover:scale-105
         ${sizeClasses[size]}

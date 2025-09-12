@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header, Menu, LenisProvider, Footer, WhatsAppButton } from "@/components";
+import { Menu, LenisProvider, Footer, WhatsAppButton } from "@/components";
 import { Montserrat as FontMontserrat } from "next/font/google";
 
 const montserrat = FontMontserrat({
@@ -26,7 +26,6 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={montserrat.className}>
         <LenisProvider />
-        <Header />
         <Menu />
         <main>{children}</main>
         <WhatsAppButton

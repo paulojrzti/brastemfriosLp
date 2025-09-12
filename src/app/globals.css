@@ -4,12 +4,13 @@
   --color-blue: #004aad;
   --color-orange: #eb8130;
   --color-light: #fbfdff;
+  --color-darkBlue: #003276;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  @apply bg-light overflow-x-hidden;
+  @apply bg-light min-h-screen;
 }
 .icon {
   @apply bg-blue p-2 2xl:p-4 rounded-full;
@@ -21,7 +22,7 @@ body {
   @apply text-blue font-semibold text-lg;
 }
 .text-info p {
-  @apply text-orange font-normal text-sm;
+  @apply text-orange font-semibold text-sm;
 }
 .menu-item {
   @apply text-blue font-semibold text-sm hover:text-orange cursor-pointer;
@@ -53,10 +54,18 @@ body {
 .swiper-pagination-bullet-active {
   background: #f97316 !important;
 }
-.social-media {
-  @apply bg-light rounded-full p-2;
+.social-glass {
+  @apply flex items-center justify-center w-10 h-10 rounded-full 
+  bg-white/10 backdrop-blur-sm border border-white/20 
+  shadow-sm transition-transform duration-200 hover:scale-110;
 }
 
+/* Inputs (clean e suaves) */
+.glass-input {
+  @apply bg-white/10 text-light placeholder:text-white/60 
+  rounded-lg px-3 py-2 backdrop-blur-sm border border-white/20 
+  focus:outline-none focus:ring-2 focus:ring-orange/60;
+}
 .footer-menu-item {
   @apply relative inline-block transition-all;
 }
