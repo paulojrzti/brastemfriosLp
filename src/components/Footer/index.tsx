@@ -1,4 +1,4 @@
-import { Container, DefaultButton } from "@/components";
+import { Container, DefaultButton, DefaultForm } from "@/components";
 import Image from "next/image";
 
 export function Footer() {
@@ -102,40 +102,7 @@ export function Footer() {
           </div>
 
           {/* Form com efeito Liquid Glass */}
-          <form
-            action="submit"
-            className="flex flex-col gap-3 w-full max-w-xs 
-  rounded-xl bg-white/10 backdrop-blur-sm 
-  border border-white/20 p-5"
-          >
-            <h4
-              className="relative inline-block font-bold text-white w-max
-    after:content-[''] after:block after:w-full after:h-[2px] after:bg-orange 
-    after:mx-auto after:mt-1 text-xl mb-3 after:rounded-full after:left-0"
-            >
-              Fale conosco
-            </h4>
-
-            <input
-              type="text"
-              placeholder="Nome"
-              className="glass-input"
-              required
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="glass-input"
-              required
-            />
-            <input
-              type="tel"
-              placeholder="Telefone"
-              className="glass-input"
-              required
-            />
-            <DefaultButton size="sm" />
-          </form>
+          <DefaultForm />
         </div>
 
         {/* Copyright */}
