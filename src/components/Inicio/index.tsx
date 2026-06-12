@@ -18,27 +18,27 @@ export function Inicio() {
       {/* versão desktop */}
       <motion.div
         ref={ref}
-        className="inicio hidden h-screen 2xl:py-25 py-15 mt-10 2xl:flex flex-col-reverse 2xl:flex-row items-center 2xl:justify-between justify-center"
+        className="inicio hidden h-screen lg:py-25 py-15 mt-10 lg:flex flex-col-reverse lg:flex-row items-center lg:justify-between justify-center"
         id="inicio"
       >
-        <div className="flex flex-col 2xl:gap-6 gap-3 items-center 2xl:items-start">
+        <div className="flex flex-col lg:gap-6 gap-3 items-center lg:items-start">
           <motion.p
             style={{ opacity, y }}
-            className="2xl:text-xl font-semibold text-orange uppercase text-center 2xl:text-left"
+            className="lg:text-lg 2xl:text-xl font-semibold text-orange uppercase text-center lg:text-left"
           >
             Atendimento rápido, profissionais qualificados e resultado
             garantido.
           </motion.p>
           <motion.h1
             style={{ opacity, y }}
-            className="2xl:text-6xl text-2xl font-bold text-blue leading-snug text-center 2xl:text-left"
+            className="lg:text-5xl 2xl:text-6xl text-[5.7vw] font-bold text-blue leading-snug text-center lg:text-left"
           >
             Refrigeração e elétrica <br /> com qualidade e confiança.
           </motion.h1>
-          <motion.div style={{ opacity, y }} className="hidden 2xl:flex">
+          <motion.div style={{ opacity, y }} className="hidden lg:flex">
             <DefaultButton size="xl" />
           </motion.div>
-          <div className="2xl:hidden">
+          <div className="lg:hidden">
             <DefaultButton size="sm" />
           </div>
         </div>
@@ -49,7 +49,7 @@ export function Inicio() {
         >
           <Image
             src="/boneco-inicio.svg"
-            alt="eletricista voltagem"
+            alt="eletricista brastenfrio"
             width={500}
             height={500}
             priority
@@ -60,7 +60,7 @@ export function Inicio() {
       {/* versão mobile */}
       <motion.div
         
-        className="2xl:hidden relative inicio h-full 2xl:py-25 py-10 flex flex-col 2xl:flex-row items-center 2xl:justify-between justify-center mt-30"
+        className="lg:hidden relative inicio h-full 2xl:py-25 py-10 flex flex-col 2xl:flex-row items-center 2xl:justify-between justify-center mt-30"
         id="inicio"
       >
         <motion.div
@@ -69,7 +69,7 @@ export function Inicio() {
         >
           <Image
             src="/boneco-inicio.svg"
-            alt="eletricista voltagem"
+            alt="eletricista brastenfrio"
             width={290}
             height={270}
             priority

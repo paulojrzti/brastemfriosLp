@@ -15,7 +15,7 @@ export function Sobre() {
         >
           <Image
             src="/boneco-sobre.svg"
-            alt="Equipe especializada em elétrica e refrigeração da Voltagem"
+            alt="Equipe especializada em elétrica e refrigeração da Brastenfrio"
             width={500}
             height={500}
           />
@@ -24,7 +24,7 @@ export function Sobre() {
         <div className="flex flex-col gap-5 2xl:w-1/2">
           <h2 className="title-section">Sobre Nós</h2>
           <p className="text-darkBlue font-light 2xl:text-xl">
-            A <strong>Voltagem</strong> é uma empresa especializada em{" "}
+            A <strong>Brastenfrio</strong> é uma empresa especializada em{" "}
             <strong>manutenção elétrica</strong> e{" "}
             <strong>refrigeração residencial e comercial</strong>. Há mais de 8
             anos no mercado, oferecemos serviços de instalação, reparo e
@@ -34,7 +34,7 @@ export function Sobre() {
           <p className="text-darkBlue font-light 2xl:text-xl">
             Nosso compromisso é garantir atendimento rápido, segurança em cada
             projeto e a satisfação de nossos clientes. Atuamos em{" "}
-            <strong>Toda Grande Vitoria e região</strong>, sempre com
+            <strong>Vila Velha, Vitória, Cariacica, Serra e toda Grande Vitória</strong>, sempre com
             profissionais qualificados e equipamentos modernos.
           </p>
 

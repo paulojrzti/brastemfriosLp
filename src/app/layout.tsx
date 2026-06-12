@@ -9,9 +9,9 @@ const montserrat = FontMontserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Voltagem - Serviços de Elétrica e Refrigeração na Grande Vitória",
+  title: "Brastenfrio - Serviços de Elétrica e Refrigeração em Vila Velha, Vitória, Cariacica, Serra e Grande Vitória",
   description:
-    "Atendimento em Vila Velha, Vitória, Cariacica, Serra e região metropolitana. Instalação, manutenção e reparos elétricos e de refrigeração.",
+    "Atendimento especializado em Vila Velha, Vitória, Cariacica, Serra e toda a Grande Vitória. Instalação, manutenção e reparos elétricos e de refrigeração.",
   other: {
     "google-site-verification" : "BjjACdSAjwwbRekGLoAfROW6SumZGYwwuN89xB1d-5g"
   },

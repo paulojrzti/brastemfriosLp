@@ -9,10 +9,11 @@ export function Footer() {
           {/* Logo + Redes */}
           <div className="flex flex-col h-full justify-between">
             <Image
-              src="/logo-branca.svg"
-              alt="Logo da Voltagem - serviços de elétrica e refrigeração"
+              src="/1732799512-imagem-joellogo-Photoroom.png"
+              alt="Logo da Brastenfrio - serviços de elétrica e refrigeração"
               width={150}
               height={150}
+              className="brightness-0 invert"
             />
 
             <div className="flex gap-4 mt-5">
@@ -58,11 +59,11 @@ export function Footer() {
               Sobre
             </h4>
             <p>
-              A <strong>Voltagem</strong> é especializada em{" "}
+              A <strong>Brastenfrio</strong> é especializada em{" "}
               <strong>serviços de elétrica</strong> e{" "}
               <strong>refrigeração residencial, comercial e industrial</strong>.
               Atendemos com instalação, manutenção, reparos e projetos sob
-              medida em toda a região da
+              medida em Vila Velha, Vitória, Cariacica, Serra e toda a
               <strong> Grande Vitória - ES </strong>.
             </p>
           </div>
