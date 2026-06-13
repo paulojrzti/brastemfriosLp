@@ -33,12 +33,12 @@ export function Menu() {
   return (
     <nav className="w-full fixed top-0 left-0 md:justify-between justify-center items-center py-3 bg-light shadow-lg border-b-2 border-blue z-50">
       <Container>
-        <div className="flex flex-col lg:flex-row w-full justify-between items-center">
-          <div className="w-32 h-12 lg:w-40 lg:h-16 2xl:w-48 2xl:h-20 relative flex-shrink-0">
+        <div className="flex flex-col lg:flex-row w-full justify-between items-center flex-wrap lg:flex-nowrap gap-y-4">
+          <div className="w-32 h-12 lg:w-36 lg:h-14 2xl:w-48 2xl:h-20 relative flex-shrink-0">
             <Image src="/1732799512-imagem-joellogo-Photoroom.png" alt="logo" fill className="object-contain" />
           </div>
-          <div className="flex flex-col lg:flex-row items-center lg:gap-8 xl:gap-16">
-            <ul className="flex lg:gap-6 2xl:gap-8 gap-5 mt-4 lg:mt-0 flex-shrink-0">
+          <div className="flex flex-col lg:flex-row items-center lg:gap-4 xl:gap-8 flex-wrap justify-center">
+            <ul className="flex flex-wrap lg:gap-4 2xl:gap-8 gap-3 mt-4 lg:mt-0 justify-center">
             {sections.map((item) => (
               <li key={item} className=" relative">
                 <a
@@ -58,7 +58,7 @@ export function Menu() {
               </li>
             ))}
           </ul>
-          <div className="infos-container hidden xl:flex xl:gap-4 2xl:gap-10 gap-5 items-center mt-4 lg:mt-0">
+          <div className="infos-container hidden lg:flex lg:gap-3 2xl:gap-10 gap-5 items-center mt-4 lg:mt-0 flex-wrap justify-center">
             <a className="info link-hover flex gap-2 2xl:gap-4 items-center cursor-pointer">
               <div className="icon bg-blue text-white p-1 lg:p-2 rounded-full">
                 <MapPin className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6" />
