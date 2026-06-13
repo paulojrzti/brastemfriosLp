@@ -58,7 +58,7 @@ export function Menu() {
               </li>
             ))}
           </ul>
-          <div className="infos-container hidden lg:flex lg:gap-4 2xl:gap-10 gap-5 items-center mt-4 lg:mt-0">
+          <div className="infos-container hidden xl:flex xl:gap-4 2xl:gap-10 gap-5 items-center mt-4 lg:mt-0">
             <a className="info link-hover flex gap-2 2xl:gap-4 items-center cursor-pointer">
               <div className="icon bg-blue text-white p-1 lg:p-2 rounded-full">
                 <MapPin className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6" />
